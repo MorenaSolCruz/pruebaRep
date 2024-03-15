@@ -83,5 +83,9 @@ public class Date {
     } catch (ParseException e) {
       return false;
     }
+
+    public void Imprimir(){
+      System.out.println("Hi");
+    }
   }
 }
